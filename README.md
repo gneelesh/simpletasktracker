@@ -3,3 +3,11 @@ A Simple Task Tracker for small companies and inter company assignments. Open So
 
 # Setup
 Deployed branch : master 
+ python -m venv ./venv
+ for windoes :  .\venv\Scripts\activate.bat
+
+
+
+
+ 
+
