@@ -2,14 +2,14 @@
 A Simple Task Tracker for small companies and inter company assignments. Open Source. 
 
 # Setup
-Deployed branch : master 
- python -m venv ./venv
- for windoes :  .\venv\Scripts\activate.bat
+Deployed branch : master <br />
+ python -m venv ./venv <br />
+ for windoes :  .\venv\Scripts\activate.bat<br /><br />
 
-.\venv\Scripts\activate
-pip freeze
-pip install django
-django-admin startproject tracker_main .
+.\venv\Scripts\activate<br />
+pip freeze<br />
+pip install django<br />
+django-admin startproject tracker_main .<br />
 
 
 
