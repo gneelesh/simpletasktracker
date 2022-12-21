@@ -1,0 +1,89 @@
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+        *,
+        :after,
+        :before {
+            box-sizing: border-box
+        }
+
+        blockquote, body,dd,dl,figure,h1,h2,h3,h4,ol,p,ul {
+            margin: 10
+        }
+
+        ol,ul {
+            list-style: none;
+            padding: 0
+        }
+
+        html {
+            scroll-behavior: smooth
+        }
+
+
+        /* , Inter, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif */
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            font-family: var(--font-body);
+            font-size: 100%;
+            font-size: var(--base-font-size);
+            line-height: 1.75;
+            line-height: var(--font-content-line-height);
+            text-rendering: optimizeSpeed
+        }
+
+        body {
+            accent-color: var(--accent-primary);
+            background-color: var(--background-primary);
+            color: var(--text-primary);
+            scrollbar-color: var(--scrollbar-color) var(--scrollbar-bg)
+        }
+
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid #DBDDDE;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            background: #FEFBFA;
+            padding: 5px;
+            text-align: left;
+        }
+
+        table.noborder {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        table.noborder,
+        th.noborder,
+        td.noborder {
+            border: 1px solid #FAFAFE;
+            border-collapse: collapse;
+        }
+
+        th.noborder,
+        td.noborder,
+        tr.noborder {
+            padding: 5px;
+            text-align: left;
+        }
+
+        a {
+            text-decoration: none
+        }
+
+        img,
+        picture {
+            display: block;
+            max-width: 100%
+        }
